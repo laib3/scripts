@@ -3,6 +3,8 @@
 # hext: a simple hexadecimal color extractor 
 # prints out the 16 main colors from a picture
 
+# requires: imagemagick
+
 HELP="usage: hext <picture.jpg>"
 
 [ $# -ne 1 ] && echo "${HELP}" && exit 1
